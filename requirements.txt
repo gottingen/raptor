@@ -1,0 +1,2 @@
+gottingen/abel@dev
+gottingen/leveldb@master -DLEVELDB_BUILD_TESTS=OFF -DLEVELDB_BUILD_BENCHMARKS=OFF

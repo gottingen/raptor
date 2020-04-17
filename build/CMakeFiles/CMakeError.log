@@ -1,0 +1,23 @@
+Performing C++ SOURCE FILE Test COMPILER_SUPPORTS_CXX20 failed with the following output:
+Change Dir: /Users/liyinbin/github/gottingen/raptor/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_df186/fast"
+/Library/Developer/CommandLineTools/usr/bin/make -f CMakeFiles/cmTC_df186.dir/build.make CMakeFiles/cmTC_df186.dir/build
+Building CXX object CMakeFiles/cmTC_df186.dir/src.cxx.o
+/Library/Developer/CommandLineTools/usr/bin/c++    -DCOMPILER_SUPPORTS_CXX20 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk   -std=c++20 -o CMakeFiles/cmTC_df186.dir/src.cxx.o -c /Users/liyinbin/github/gottingen/raptor/build/CMakeFiles/CMakeTmp/src.cxx
+error: invalid value 'c++20' in '-std=c++20'
+note: use 'c++98' or 'c++03' for 'ISO C++ 1998 with amendments' standard
+note: use 'gnu++98' or 'gnu++03' for 'ISO C++ 1998 with amendments and GNU extensions' standard
+note: use 'c++11' for 'ISO C++ 2011 with amendments' standard
+note: use 'gnu++11' for 'ISO C++ 2011 with amendments and GNU extensions' standard
+note: use 'c++14' for 'ISO C++ 2014 with amendments' standard
+note: use 'gnu++14' for 'ISO C++ 2014 with amendments and GNU extensions' standard
+note: use 'c++17' for 'ISO C++ 2017 with amendments' standard
+note: use 'gnu++17' for 'ISO C++ 2017 with amendments and GNU extensions' standard
+note: use 'c++2a' for 'Working draft for ISO C++ 2020' standard
+note: use 'gnu++2a' for 'Working draft for ISO C++ 2020 with GNU extensions' standard
+make[2]: *** [CMakeFiles/cmTC_df186.dir/src.cxx.o] Error 1
+make[1]: *** [cmTC_df186/fast] Error 2
+
+Source file was:
+int main() { return 0; }
