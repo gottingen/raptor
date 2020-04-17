@@ -26,7 +26,7 @@ namespace raptor {
 
 } //namespace raptor
 
-#define ABEL_REGISTER_ENGINE(engine_index, engine_name, creator)                   \
+#define RAPTOR_REGISTER_ENGINE(engine_index, engine_name, creator)                   \
 const int ABEL_ALLOW_UNUSED ABEL_CONCAT(engine_dummy_, __LINE__) =              \
     ::abel::engine_register((engine_index), (engine_name),(creator)); \
     template <> class ::abel::engine_register_helper<engine_index> {};
