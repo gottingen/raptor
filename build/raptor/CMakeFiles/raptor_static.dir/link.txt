@@ -1,2 +1,0 @@
-/Library/Developer/CommandLineTools/usr/bin/ar qc ../lib/libraptor.a  CMakeFiles/raptor_static.dir/engine/factory.cc.o
-/Library/Developer/CommandLineTools/usr/bin/ranlib ../lib/libraptor.a
