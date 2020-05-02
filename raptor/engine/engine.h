@@ -8,6 +8,7 @@
 #include <abel/asl/string_view.h>
 #include <abel/chrono/clock.h>
 #include <abel/asl/filesystem.h>
+#include <abel/asl/any.h>
 
 namespace raptor {
 
@@ -37,7 +38,7 @@ namespace raptor {
          */
         virtual void remove() = 0;
 
-        virtual ~engine_iterator();
+        virtual ~engine_iterator() {}
     };
 
     struct feature_set {
@@ -68,6 +69,9 @@ namespace raptor {
 
     class engine {
     public:
+
+        virtual int init(abel::any config) = 0;
+
         virtual int put(const key_type &key, abel::string_view value) = 0;
 
         virtual int get(const key_type &key, std::string &value) = 0;

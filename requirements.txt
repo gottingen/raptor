@@ -1,2 +1,2 @@
-gottingen/abel@dev
-gottingen/leveldb@master -DLEVELDB_BUILD_TESTS=OFF -DLEVELDB_BUILD_BENCHMARKS=OFF
+gottingen/abel@dev -DENABLE_TESTING=OFF -DENABLE_BENCHMARK=OFF
+gottingen/rocksdb@raptor -DWITH_TESTS=OFF -DWITH_BENCHMARK_TOOLS=OFF -DWITH_SNAPPY=ON
